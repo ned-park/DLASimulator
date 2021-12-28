@@ -1,5 +1,3 @@
-package dla;
-
 /**
  * Sets up a simulator with an open boundary on one plane 
  */

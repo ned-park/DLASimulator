@@ -1,5 +1,3 @@
-package dla;
-
 /**
  * Implements the mechanisms to run the DLA simulations
  *

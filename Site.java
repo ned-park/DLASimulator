@@ -1,5 +1,3 @@
-package dla;
-
 /**
  * Enums for coordinate states in the simulation
  */

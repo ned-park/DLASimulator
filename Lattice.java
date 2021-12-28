@@ -1,5 +1,3 @@
-package dla;
-
 /**
  * Provides a 3D lattice of Sites that constitutes the simulated world
  * and functions to set and access the states of those Sites

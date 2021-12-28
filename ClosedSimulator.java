@@ -1,5 +1,3 @@
-package dla;
-
 /**
  * Sets up a closed simulator with periodic boundary conditions and no EXITS
  */

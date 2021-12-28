@@ -1,7 +1,4 @@
-package dla;
-
 /**
- * @author Ned Park
  *
  * An interface for all types of DLA Simulators
  */
