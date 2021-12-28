@@ -7,12 +7,12 @@ intriguing and wondered about adding a third dimension dimension.
 
 Some months later, I was thinking about a similar problem and decided 
 to build a 3D DLA simulator in Java thinking some examples might 
-lend a little more insight to the subject.  The result is here, and 
+lend a little more insight into the problem at hand.  The result is here, and 
 it performs 3D DLA simulations using random walks then prints 
 the result of the simulation in slices to console.  
 
-This version features a Simulator Interface, support for both open
-and closed simulations, and a set of flags the facilitate batch 
+This version features a Simulator Interface, implemented by both open
+and closed simulators, and a set of command line flags the facilitate batch 
 simulations when desired.  
 
 The size of the system is 20x20x20.
@@ -34,7 +34,7 @@ java DLArunner -t <o|c> -n <integer> -a <integer>
 if not specified to prevent infinite loops in dense systems without much inhibition
 of the random starting placement in small-scale systems).
 
--n The number of particles to add to the system (defaults to 0).
+-n The number of particles to add to the system (defaults to 0) so it is recommended to set.
 
 -t The type of system to simulate.  Accepted values are `c` for a closed periodic
 simulation and `o` for an open simulation (defaults to `c`).
