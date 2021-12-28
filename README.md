@@ -1,15 +1,15 @@
 # 3D Diffusion Limited Aggregation Simulator
 
 ## About
-This program began its life in a C++ course where we had an 
+The idea for this program happened during a C++ course where we were given an 
 assignment to produce a 2D DLA simulator.  I found the result
-intriguing and wondered about adding a third dimension out of
-curiosity but never got around to it.  
+intriguing and wondered about adding a third dimension dimension.
 
 Some months later, I was thinking about a similar problem and decided 
-to build a 3D DLA simulator in Java that might lend a little more insight
-to the subject.  The result performs 3D DLA simulations using random
-walks and prints the simulation in slices to console.  
+to build a 3D DLA simulator in Java thinking some examples might 
+lend a little more insight to the subject.  The result is here, and 
+it performs 3D DLA simulations using random walks then prints 
+the result of the simulation in slices to console.  
 
 This version features a Simulator Interface, support for both open
 and closed simulations, and a set of flags the facilitate batch 
