@@ -27,7 +27,7 @@ Assuming you have a jdk installed:
 
 ## Usage:
 
-java dla -t <o|p> -n <integer> -a <integer>
+java DLArunner -t <o|c> -n <integer> -a <integer>
 
 ## Flags
 -a The number of attempts to make for each particle entry (defaults to 100000 
@@ -41,8 +41,8 @@ simulation and `o` for an open simulation (defaults to `c`).
 
 ## Examples:
 
-    java dla -t p -n 400 -a 15000  
-    java dla -t o -n 1000 
+    java DLArunner -t p -n 400 -a 15000  
+    java DLArunner -t o -n 1000 
 
 ## Sample output
 
