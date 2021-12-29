@@ -27,7 +27,7 @@ Assuming you have a jdk installed:
 
 ## Usage:
 
-java DLArunner -t <o|c> -n <integer> -a <integer>
+java DLArunner -t <o|c> -n \<integer\> -a \<integer\>
 
 ## Flags
 -a The number of attempts to make for each particle entry (defaults to 100000 
