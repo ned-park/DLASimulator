@@ -41,7 +41,7 @@ simulation and `o` for an open simulation (defaults to `c`).
 
 ## Examples:
 
-    java DLArunner -t p -n 400 -a 15000  
+    java DLArunner -t c -n 400 -a 15000  
     java DLArunner -t o -n 1000 
 
 ## Sample output
